@@ -49,6 +49,7 @@ nav{
     color: blue;
     background:  rgba(6, 6, 6, 0.732);
     backdrop-filter: saturate(180%) blur(9px);
+    -webkit-backdrop-filter: saturate(180%) blur(10px);
     z-index: 1000;
     gap: 2rem;
     top: 0;
