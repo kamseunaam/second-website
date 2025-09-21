@@ -19,14 +19,14 @@ body {
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 20px;
-    font-size: 20px;
+    padding: 0px;
+    font-size: 19px;
 }
 
 .content{
     margin-top: 120px;
     padding-right: 50px;
-    padding-left: 220px;
+    padding-left: 200px;
 }
 
 .navitems{
@@ -136,12 +136,12 @@ a{
     font-size: 15px;
 }
 
- @media (min-width: 1035px) {
+ @media (min-width: 805px) {
       nav { display: flex; }
       .mobilenav, .mobilenavitems, .mobilenavbutton, .mobilenavlinks { display: none; }
     }
 
- @media (max-width: 1035px) {
+ @media (max-width: 805px) {
       nav { display: none; }
       .content { margin-top: 50px }
       .mobilenavbutton {padding-bottom: 20px;}
