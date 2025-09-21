@@ -12,10 +12,10 @@
       </nav>
     <div class="content">
        <div class="slidecontainer">
-        <div class="slide"><img src="./images/pic1.jpg"></div>
-        <div class="slide"><img src="./images/pic2.jpg"></div>
-        <div class="slide"><img src="./images/pic3.jpg"></div>
-        <div class="slide"><img src="./images/pic4.jpg"></div>
+        <div class="slide"><img class="slidepic" src="./images/pic1.jpg"></div>
+        <div class="slide"><img class="slidepic" src="./images/pic2.jpg"></div>
+        <div class="slide"><img class="slidepic" src="./images/pic3.jpg"></div>
+        <div class="slide"><img class="slidepic" src="./images/pic4.jpg"></div>
        </div> 
        <script>
         const slides = document.querySelectorAll('.slide');
@@ -33,11 +33,15 @@
     }
       showSlide(currentSlide);
 
-    //5 seconds
        setInterval(nextSlide, 3000);
       </script>
-      <p>Images here change every 5 seconds.</p>
+      <p>Images here change every 3 seconds.</p>
      </div>
+    <div class="mobilenav">
+      <div class="mobilenavitems">
+        <button class="mobilenavbutton"><a class="mobilenavlinks" href="./index.html">Back to homepage</a></button>
 
+      </div>
+    </div>
     </body>
 </html>

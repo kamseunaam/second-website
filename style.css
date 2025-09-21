@@ -1,6 +1,6 @@
 body {
     background-color: rgba(0, 0, 0, 0.932);
-    margin-right: 50px;
+    justify-content: space-around;
 }
 
 .navbutton {
@@ -25,8 +25,10 @@ body {
 
 .content{
     margin-top: 120px;
-    margin-left: 6cm;
+    padding-right: 90px;
+    padding-left: 90px;
 }
+
 .navitems{
     margin-left: 90px;
 }
@@ -96,3 +98,54 @@ a{
     margin-bottom: 5px;
     margin-right: 5px;
 }
+
+.mobilenav{
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background:  rgba(6, 6, 6, 0.732);
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    backdrop-filter: blur(11px);
+    justify-content: space-evenly;
+}
+
+.mobilenavitems{
+    margin-left: 12%;
+}
+
+.mobilenavbutton {
+    box-shadow: 0px;
+    margin-right: 2px;
+    background-color: transparent;
+    border: none;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.mobilenavlinks{
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 15px;
+}
+
+ @media (min-width: 1035px) {
+      nav { display: flex; }
+      .mobilenav { display: none; }
+    }
+
+ @media (max-width: 1035px) {
+      nav { display: none; }
+      .content { margin-top: 50px }
+      .mobilenavbutton {padding-bottom: 20px;}
+      .mobilenavitems {margin-left: 3%;}
+      .mobilenav { display: flex; }
+      .pics, .artistpics {height: 100%; width: 100%;}
+      .slidepic {height: 100%; width: 100%;}
+    }
