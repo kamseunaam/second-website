@@ -149,5 +149,5 @@ a{
       .mobilenav { display: flex; }
       .pics, .artistpics {height: 100%; width: 100%;}
       .slidepic {height: 100%; width: 100%;}
-      .content {padding-left: 35px; padding-right: 35px;}
+      .content {padding-left: 35px; padding-right: 35px; padding-bottom: 60px;}
     }
