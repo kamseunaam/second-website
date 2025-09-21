@@ -108,6 +108,7 @@ a{
     align-items: center;
     position: fixed;
     backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: saturate(180%) blur(11px);
     justify-content: space-evenly;
 }
 
