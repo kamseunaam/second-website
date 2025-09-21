@@ -136,9 +136,32 @@ a{
     font-size: 15px;
 }
 
+.mobileiconholder{
+    height: 40px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    position: fixed;
+    background:  rgba(6, 6, 6, 0.732);
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.holderitems{
+    margin-left: 43%;
+}
+
+.mobileicon{
+    padding-top: 5px;
+}
+
  @media (min-width: 805px) {
       nav { display: flex; }
-      .mobilenav, .mobilenavitems, .mobilenavbutton, .mobilenavlinks { display: none; }
+      .mobilenav, .mobilenavitems, .mobilenavbutton, .mobilenavlinks, .mobileiconholder, .mobileicon, .holderitems { display: none; }
+
     }
 
  @media (max-width: 805px) {
@@ -149,7 +172,7 @@ a{
       .mobilenav { display: flex; }
       .pics, .artistpics {height: 100%; width: 100%;}
       .slidepic {height: 100%; width: 100%;}
-      .content {padding-left: 28px; padding-right: 28px; padding-bottom: 60px;}
+      .content {padding-left: 28px; padding-right: 28px; padding-bottom: 60px; padding-top: 1px;}
     }
 
 @media (max-width: 980px) {
