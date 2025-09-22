@@ -99,6 +99,10 @@ a{
     margin-right: 5px;
 }
 
+.slidepic{
+    border-radius: 8px;
+}
+
 .mobilenav{
     bottom: 0;
     left: 0;
