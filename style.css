@@ -108,9 +108,14 @@ a{
 }
 
 .mobilenav{
+    height: 70px;
     bottom: 0;
     left: 0;
-    height: 70px;
+    border-color: rgba(47, 51, 54);
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom: 0px;
+    border-left: 0px;
     background:  rgba(6, 6, 6, 0.732);
     width: 100%;
     align-items: center;
@@ -147,6 +152,11 @@ a{
 .mobileiconholder{
     height: 38px;
     width: 100%;
+    border-color: rgba(47, 51, 54);
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top: 0px;
+    border-left: 0px;
     top: 0;
     left: 0;
     backdrop-filter: blur(11px);
