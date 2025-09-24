@@ -52,7 +52,11 @@ h6{
 nav{
     position: fixed;
     width: 100%;
-    border-color: white;
+    border-color: rgba(47, 51, 54);
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top: 0px;
+    border-left: 0px;
     margin-bottom: 50px;
     color: blue;
     background:  rgba(6, 6, 6, 0.732);
