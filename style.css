@@ -169,7 +169,7 @@ a{
 }
 
 .holderitems{
-    margin-left: 43%;
+    margin-left: 0%;
 }
 
 .mobileicon{
@@ -188,11 +188,12 @@ a{
       .mobilenavbutton {padding-bottom: 20px;}
       .mobilenavitems {margin-left: 0%;}
       .mobilenav { display: flex; }
+      .mobileiconholder { display: flex; }
       .pics, .artistpics {height: 100%; width: 100%;}
       .slidepic {height: 100%; width: 100%;}
       .content {padding-left: 28px; padding-right: 28px; padding-bottom: 60px; padding-top: 1px;}
     }
 
 @media (max-width: 980px) {
-    .content {padding-left: 35px; padding-right: 35px;}
+    .content {padding-left: 30px; padding-right: 30px;}
 }
