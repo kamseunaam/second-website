@@ -188,7 +188,7 @@ a{
       .mobileiconholder { display: flex; }
       .pics, .artistpics {height: 100%; width: 100%;}
       .slidepic {height: 100%; width: 100%;}
-      .content {padding-left: 24px; padding-right: 24px; padding-bottom: 60px; padding-top: 30px;}
+      .content {padding-left: 24px; padding-right: 24px; padding-bottom: 60px; padding-top: 40px;}
     }
 
 @media (max-width: 980px) {
