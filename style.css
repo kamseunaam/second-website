@@ -58,7 +58,7 @@ nav, .mobilenav, .mobileiconholder{
 nav{
     position: fixed;
     width: 100%;
-    border-color: rgba(47, 51, 54);
+    border-color: rgb(26, 27, 27);
     border-style: solid;
     border-bottom-width: 1px;
     border-top: 0px;
@@ -70,7 +70,7 @@ nav{
     top: 0;
     left: 0;
     height: 77px;
-    box-shadow: inset;
+    box-shadow: 0 0 7px #0000005c;
 }
 
 button:hover{
@@ -114,7 +114,7 @@ a{
     height: 70px;
     bottom: 0;
     left: 0;
-    border-color: rgba(47, 51, 54);
+    border-color:  rgb(26, 27, 27);
     border-style: solid;
     border-top-width: 1px;
     border-bottom: 0px;
@@ -123,6 +123,7 @@ a{
     align-items: center;
     position: fixed;
     justify-content: space-evenly;
+    box-shadow: 0 0 7px #0000005c;
 }
 
 .mobilenavitems{
@@ -152,7 +153,7 @@ a{
 .mobileiconholder{
     height: 38px;
     width: 100%;
-    border-color: rgba(47, 51, 54);
+    border-color:  rgb(26, 27, 27);
     border-style: solid;
     border-bottom-width: 1px;
     border-top: 0px;
@@ -163,6 +164,7 @@ a{
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 10px;
+    box-shadow: 0 0 7px #0000005c;
 }
 
 .holderitems{
