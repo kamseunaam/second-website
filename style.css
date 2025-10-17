@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 0, 0, 0.932);
+    background-color: rgba(8, 8, 8, 0.921);
     justify-content: space-around;
 }
 
@@ -39,9 +39,16 @@ p, h2, li{
     font-size: 18px;
 }
 
-h1{
+.headings{
     color: rgb(57, 174, 147);
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 3px #0000005c;
+}
+
+.artistnames{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 3px #0000005c;
 }
 
 h6{
@@ -51,18 +58,13 @@ h6{
 
 nav, .mobilenav, .mobileiconholder{
     background:  rgba(6, 6, 6, 0.732);
-    backdrop-filter: saturate(180%) blur(12px);
-    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    backdrop-filter: saturate(180%) blur(7px);
+    -webkit-backdrop-filter: saturate(180%) blur(7px);
 }
 
 nav{
     position: fixed;
     width: 100%;
-    border-color: rgb(26, 27, 27);
-    border-style: solid;
-    border-bottom-width: 1px;
-    border-top: 0px;
-    border-left: 0px;
     margin-bottom: 50px;
     color: blue;
     z-index: 1000;
@@ -95,35 +97,38 @@ a{
 .artistpics{
     border-radius: 10px;
     margin-bottom: 15px;
-    box-shadow: 50px;
-    margin-top: 5px;
+    box-shadow: 0 0 9px #0000005c; 
 }
 
 .pics{
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    box-shadow: 0 0 9px #0000005c;
     margin-right: 5px;
 }
 
 .slidepic{
     border-radius: 8px;
+    box-shadow: 0 0 9px #0000005c;
+    margin-top: 15px;
 }
 
 .mobilenav{
-    height: 70px;
-    bottom: 0;
-    left: 0;
-    border-color:  rgb(26, 27, 27);
-    border-style: solid;
+    height: 65px;
+    bottom: 7px;
+    left: 50%;
+    transform: translateX(-50%);
     border-top-width: 1px;
     border-bottom: 0px;
     border-left: 0px;
-    width: 100%;
+    border-radius: 40px;
+    width: 380px;
     align-items: center;
+    align-self: center;
     position: fixed;
     justify-content: space-evenly;
-    box-shadow: 0 0 7px #0000005c;
+    box-shadow: 0 0 20px #0000005c;
 }
 
 .mobilenavitems{
@@ -151,20 +156,18 @@ a{
 }
 
 .mobileiconholder{
-    height: 38px;
-    width: 100%;
-    border-color:  rgb(26, 27, 27);
-    border-style: solid;
-    border-bottom-width: 1px;
-    border-top: 0px;
-    border-left: 0px;
-    top: 0;
-    left: 0;
+    height: 40px;
+    width: 380px;
+    border-radius: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0px;
     position: fixed;
     align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 10px;
-    box-shadow: 0 0 7px #0000005c;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    box-shadow: 0 0 20px #00000060;
 }
 
 .holderitems{
@@ -177,7 +180,8 @@ a{
 
  @media (min-width: 805px) {
       nav { display: flex; }
-      .mobilenav, .mobilenavitems, .mobilenavbutton, .mobilenavlinks, .mobileiconholder, .mobileicon, .holderitems { display: none; }
+      .mobilenav, .mobilenavitems, .mobilenavbutton, .mobilenavlinks, 
+      .mobileiconholder, .mobileicon, .holderitems { display: none; }
 
     }
 
@@ -188,6 +192,7 @@ a{
       .mobilenavitems {margin-left: 0%;}
       .mobilenav { display: flex; }
       .mobileiconholder { display: flex; }
+      .headings { text-align: center; }
       .pics, .artistpics {height: 100%; width: 100%;}
       .slidepic {height: 100%; width: 100%;}
       .content {padding-left: 24px; padding-right: 24px; padding-bottom: 60px; padding-top: 40px;}
