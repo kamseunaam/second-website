@@ -128,7 +128,12 @@ a{
     align-self: center;
     position: fixed;
     justify-content: space-evenly;
-    box-shadow: 0 0 25px #00000068;
+    box-shadow: 0 0 25px #00000068,
+    inset 0 1px 0 rgba(255, 255, 255, 0.08), 
+    inset 0 -1px 3px rgba(255, 255, 255, 0.05);
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.064), rgba(0,0,0,0.1));
+    background-blend-mode: screen, normal, multiply;
 }
 
 .mobilenavbutton {
@@ -163,7 +168,13 @@ a{
     align-self: center;
     justify-content: center;
     margin-bottom: 5px;
-    box-shadow: 0 0 20px #00000068;
+    box-shadow: 0 0 20px #00000068, 
+    inset 0 1px 0 rgba(255, 255, 255, 0.08), 
+    inset 0 -1px 3px rgba(255, 255, 255, 0.05);
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.064), rgba(0,0,0,0.1));
+    background-blend-mode: screen, normal, multiply;
+
 }
 
 .holderitems{
