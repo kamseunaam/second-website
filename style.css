@@ -127,7 +127,7 @@ a{
     align-items: center;
     align-self: center;
     position: fixed;
-    justify-content: center;
+    justify-content: space-evenly;
     box-shadow: 0 0 25px #00000068;
 }
 
