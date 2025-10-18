@@ -12,6 +12,8 @@ body {
     margin-right: 20px;
     margin-bottom: 19px;
     font-size: 19px;
+    border-radius: 50px;
+    background-color: transparent;
 }
 
 .content{
@@ -143,6 +145,8 @@ a{
     margin-bottom: 0px;
     padding: 2px;
     font-size: 15px;
+    background-color: transparent;
+    border-radius: 50px;
 }
 
 .mobilenavitems{
