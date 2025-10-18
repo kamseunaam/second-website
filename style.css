@@ -56,8 +56,8 @@ h6{
 
 nav, .mobilenav, .mobileiconholder{
     background:  rgba(6, 6, 6, 0.732);
-    backdrop-filter: saturate(180%) blur(7px);
-    -webkit-backdrop-filter: saturate(180%) blur(7px);
+    backdrop-filter: saturate(180%) blur(4px);
+    -webkit-backdrop-filter: saturate(180%) blur(4px);
 }
 
 nav{
@@ -139,7 +139,6 @@ a{
     margin-right: 0px;
     background-color: transparent;
     border: none;
-    margin-top: 6%;
     border-radius: 100px;
 }
 
@@ -148,10 +147,13 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: white;
-    margin-top: 25px;
     margin-bottom: 1px;
     padding: 0px;
     font-size: 15px;
+}
+
+.mobilenavitems{
+    margin-top: 5%;
 }
 
 .mobileiconholder{
