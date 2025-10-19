@@ -53,6 +53,7 @@ h6{
 .mobilenav, .mobileiconholder{
     background:  rgba(6, 6, 6, 0.732);
     backdrop-filter: url(#liquidGlass) blur(3px);
+    -webkit-backdrop-filter: url(#liquidGlass) blur(3px);
 }  
 
 nav{
