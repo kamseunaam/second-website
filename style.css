@@ -50,16 +50,18 @@ h6{
     font-family:Arial, Helvetica, sans-serif
 }
 
-nav, .mobilenav, .mobileiconholder{
+.mobilenav, .mobileiconholder{
     background:  rgba(6, 6, 6, 0.732);
-    backdrop-filter: saturate(180%) blur(4px);
-    -webkit-backdrop-filter: saturate(180%) blur(4px);
-}
+    backdrop-filter: url(#liquidGlass) blur(3px);
+}  
 
 nav{
     position: fixed;
     width: 100%;
     margin-bottom: 50px;
+    background:  rgba(6, 6, 6, 0.732);
+    backdrop-filter: saturate(180%) blur(8px);
+    -webkit-backdrop-filter: saturate(180%) blur(8px);
     color: blue;
     z-index: 1000;
     gap: 2rem;
