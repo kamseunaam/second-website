@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(8, 8, 8, 0.921);
+    background-color: rgba(8, 8, 8, 0.953);
     justify-content: space-around;
 }
 
@@ -14,6 +14,7 @@ body {
     font-size: 19px;
     border-radius: 50px;
     background-color: transparent;
+    transition: 0.2s ease;
 }
 
 .content{
@@ -51,7 +52,7 @@ h6{
 }
 
 .mobilenav, .mobileiconholder{
-    background:  rgba(6, 6, 6, 0.732);
+    background:  rgba(6, 6, 6, 0);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
 }  
@@ -72,10 +73,17 @@ nav{
     box-shadow: 0 0 10px #0000005c;
 }
 
-.navlinks:hover, .mobilenavlinks:hover{
+.navlinks:hover{
     color: rgb(120, 120, 120);
     transition: 0.2s ease;
 }
+
+.mobilenavlinks:hover{
+    font-size: 17.5px;
+    transition: 0.2s ease;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+}
+
 
 .about{
     font-style: italic;
@@ -150,6 +158,7 @@ a{
     font-size: 15px;
     background-color: transparent;
     border-radius: 50px;
+    transition: 0.2s ease;
 }
 
 .mobilenavitems{
