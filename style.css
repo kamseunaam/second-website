@@ -150,7 +150,7 @@ a{
 
 .mobilenavlinks{
     font-style: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
     margin-bottom: 0px;
