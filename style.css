@@ -61,7 +61,7 @@ nav{
     position: fixed;
     width: 100%;
     margin-bottom: 50px;
-    background:  rgba(6, 6, 6, 0.732);
+    background:  rgba(12, 12, 12, 0.273);
     backdrop-filter: saturate(180%) blur(8px);
     -webkit-backdrop-filter: saturate(180%) blur(8px);
     color: blue;
