@@ -11,20 +11,20 @@ body {
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 19px;
-    font-size: 19px;
+    font-size: 18px;
     border-radius: 50px;
     background-color: transparent;
     transition: 0.2s ease;
 }
 
 .content{
-    padding-top: 87px;
+    padding-top: 70px;
     padding-right: 50px;
     padding-left: 175px;
 }
 
 .navitems{  
-    margin-top: 24px;
+    margin-top: 21px;
     padding-left: 90px;
 }
 
@@ -53,28 +53,28 @@ h6{
 
 .mobilenav, .mobileiconholder{
     background:  rgba(6, 6, 6, 0);
-    backdrop-filter: saturate(140%) blur(5px);
+    backdrop-filter: saturate(140%) blur(8px);
     -webkit-backdrop-filter: blur(5px);
 }  
 
 nav{
     position: fixed;
     width: 100%;
-    margin-bottom: 50px;
-    background:  rgba(12, 12, 12, 0.273);
+    background:  rgba(12, 12, 12, 0.733);
+    box-shadow: 0 0 7px #0000005c;
     backdrop-filter: saturate(180%) blur(8px);
     -webkit-backdrop-filter: saturate(180%) blur(8px);
     color: blue;
     z-index: 1000;
-    gap: 2rem;
     top: 0;
     left: 0;
-    height: 76px;
-    box-shadow: 0 0 10px #0000005c;
+    height: 68px;
 }
 
 .navlinks:hover{
-    color: rgb(120, 120, 120);
+    color: rgb(237, 237, 237);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+    font-size: 19px;
     transition: 0.2s ease;
 }
 
@@ -90,6 +90,11 @@ nav{
     color: royalblue;
 }
 
+.versionnumber{
+    color: rgba(74, 74, 74, 0.874);
+    font-size: 9px;
+}
+
 a{
     text-decoration: none;
 }
@@ -97,6 +102,12 @@ a{
 .hypertext{
     text-decoration: none;
     color: royalblue;
+}
+
+.social{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
 .artistpics{
@@ -120,7 +131,7 @@ a{
 }
 
 .mobilenav{
-    height: 65px;
+    height: 55px;
     bottom: 7px;
     left: 50%;
     transform: translateX(-50%);
@@ -128,14 +139,14 @@ a{
     border-bottom: 0px;
     border-left: 0px;
     border-radius: 40px;
-    width: 368px;
+    width: 325px;
     align-items: center;
     align-self: center;
     position: fixed;
     justify-content: space-evenly;
     box-shadow: 0 0 31px #00000068,
-    inset 0 0px 8px rgba(255, 255, 255, 0.08), 
-    inset 0 0px 8px rgba(255, 255, 255, 0.05);
+    inset 0 0px 6px rgba(255, 255, 255, 0.08), 
+    inset 0 0px 6px rgba(255, 255, 255, 0.05);
     background-image:
     linear-gradient(to bottom, rgba(255, 255, 255, 0.075), rgba(12, 12, 12, 0.015));
     background-blend-mode: screen, normal, multiply;
@@ -154,12 +165,12 @@ a{
     text-decoration: none;
     color: white;
     margin-bottom: 0px;
-    padding: 2px;
+    padding: 3.5px;
     font-size: 15px;
     background-color: transparent;
     border-radius: 50px;
     transition: 0.2s ease;
-    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.642);
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.642);
 }
 
 .mobilenavitems{
@@ -168,7 +179,7 @@ a{
 
 .mobileiconholder{
     height: 40px;
-    width: 368px;
+    width: 325px;
     border-radius: 40px;
     left: 50%;
     transform: translateX(-50%);
@@ -179,8 +190,8 @@ a{
     justify-content: center;
     margin-bottom: 5px;
     box-shadow: 0 0 31px #00000068,
-    inset 0 0px 8px rgba(255, 255, 255, 0.08), 
-    inset 0 0px 8px rgba(255, 255, 255, 0.05);
+    inset 0 0px 6px rgba(255, 255, 255, 0.08), 
+    inset 0 0px 6px rgba(255, 255, 255, 0.05);
     background-image:
     linear-gradient(to bottom, rgba(255, 255, 255, 0.075), rgba(12, 12, 12, 0.015));
     background-blend-mode: screen, normal, multiply;
