@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./images/tabicon.png" sizes="32x32"/>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+<!--
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute; overflow:hidden">
+        <defs>
+            <filter id="liquidGlass" x="0%" y="0%" width="100%" height="100%">
+                <feTurbulence type="fractalNoise" baseFrequency="0.004 0.004" numOctaves="2" seed="92" result="noise"></feTurbulence>
+                <feGaussianBlur in="noise" stdDeviation="2" result="blurred"></feGaussianBlur>
+                <feDisplacementMap in="SourceGraphic" in2="blurred" scale="135" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+            </filter>
+        </defs>
+    </svg>
+-->
+    
+        <nav>
+            <div class="navitems">
+            <a class="navlinks" href="./socials.html">My socials</a>
+            <a class="navlinks" href="./thingsilike.html">My Hobbies</a>
+            <a class="navlinks" href="./contactme.html">Contact me</a>
+            <a class="navlinks" href="./imageslide.html">Image Slideshow</a>
+            </div>
+        </nav>
+        <div class="mobileiconholder">
+            <div class="holderitems">
+            <img class="mobileicon" src="./images/icon.png" width="62" height="32"/>
+            </div>
+        </div>
+
+    <div class="content">
+        <h1 class="headings">About Me</h1>
+    
+        <p>This page is about my entire life.<br> I'll start with my Name, Age and
+            where I was born.
+        </p>
+        <p>My name is <strong>Kamse Unaam</strong>. I'm 14 years old.<br> I was born on
+            the 5th of December, 2011 in Port Harcourt and I originate from Akwa-Ibom State in Nigeria.<br> I reside in Lagos right now.<br> 
+            I'm currently in SS1 in Debiruss College.<br> I'm 6,0" and I can't recall how much I weigh.<br> I will also be using this website to show an example of my work when neccessary.
+        </p>
+    
+        <h1 class="headings">My Religion and Beliefs</h1>
+    
+        <p>I am one of Jehovah's Witnesses. Yes, I have been baptized.<br> I don't celebrate such things like Christmas, Easter, Birthdays among others.<br>
+             This is because we believe that these celebrations have pegan origins and aren't in harmony with God's standards.
+
+        </p>
+
+  </div>
+
+    <div class="mobilenav">
+        <div class="mobilenavitems">
+        <a class="mobilenavlinks" href="./socials.html">Socials</a>
+        <a class="mobilenavlinks" href="./thingsilike.html">Hobbies</a>
+        <a class="mobilenavlinks" href="./contactme.html">Contact me</a>
+        <a class="mobilenavlinks" href="./imageslide.html">Images</a>
+     </div>
+    </div>
+
+    </body>
+ </html>
